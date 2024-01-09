@@ -10,7 +10,7 @@ import SwiftUI
 import CubicSpline
 
 @available(iOS 13.0, macOS 10.15, *)
-extension CubicSpline {
+public extension CubicSpline {
     var path:Path {
         var path = Path()
         
@@ -25,5 +25,3 @@ extension CubicSpline {
         return path
     }
 }
-
-
